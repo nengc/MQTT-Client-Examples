@@ -25,7 +25,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x ./mqtt-client-Android/gradlew
     - name: Build with Gradle
-      run: /mqtt-client-Android/gradlew build
+      run: ./mqtt-client-Android/gradlew build
     - name: upload result
       uses: actions/upload-artifact@v1
       with:
