@@ -26,6 +26,8 @@ jobs:
       run: chmod +x ./mqtt-client-Android/gradlew
     - name: Build with Gradle
       run: ./mqtt-client-Android/gradlew build
+    - name: Ls
+      run: ls ./mqtt-client-Android
     - name: upload result
       uses: actions/upload-artifact@v1
       with:
