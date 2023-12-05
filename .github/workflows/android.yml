@@ -20,6 +20,8 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
+    - name: Echo
+      run: pwd
     - name: Go to folder
       run: cd ./mqtt-client-Android
     - name: Grant execute permission for gradlew
