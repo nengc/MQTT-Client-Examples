@@ -36,6 +36,5 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: my-artifact
-        working-directory: ./mqtt-client-Android
-        path: ./app/build/outputs/apk/debug/app-debug.apk
+        path: ./mqtt-client-Android/app/build/outputs/apk/debug/app-debug.apk
 
