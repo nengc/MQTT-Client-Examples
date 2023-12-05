@@ -28,7 +28,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       working-directory: ./mqtt-client-Android
-      run: gradlew build
+      run: ./gradlew build
     - name: Ls
       working-directory: ./mqtt-client-Android
       run: ls app
