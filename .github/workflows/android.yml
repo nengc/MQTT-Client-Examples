@@ -37,5 +37,5 @@ jobs:
       with:
         name: my-artifact
         working-directory: ./mqtt-client-Android
-        path: ${{ github.workspace }}/app/build/outputs/apk/debug/app-debug.apk
+        path: ./app/build/outputs/apk/debug/app-debug.apk
 
