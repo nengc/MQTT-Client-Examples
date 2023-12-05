@@ -27,7 +27,7 @@ jobs:
     - name: Build with Gradle
       run: ./mqtt-client-Android/gradlew build
     - name: Ls
-      run: ls ./mqtt-client-Android
+      run: ls ./mqtt-client-Android/app
     - name: upload result
       uses: actions/upload-artifact@v1
       with:
